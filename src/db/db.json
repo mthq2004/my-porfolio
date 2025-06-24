@@ -5,9 +5,15 @@
       "name": "Mai Thành Hải Quân",
       "email": "maithanhhaiquan2004@gmail.com",
       "message": "Chúc cậu may mắn trong công việc"
+    },
+    {
+      "id": "4417",
+      "name": "Mai Thành Hải Quân",
+      "email": "maithanhhaiquan2004@gmail.com",
+      "message": "Hi"
     }
   ],
-   "projects": [
+  "projects": [
     {
       "id": 1,
       "title": "Dr. Chen Pharmacy Management",
@@ -19,7 +25,12 @@
         "/img/project1/img5.png"
       ],
       "description": "Hệ thống quản lý nhà thuốc hỗ trợ bán hàng, lưu trữ đơn thuốc, và quản lý kho hàng.",
-      "technologies": ["Java", "Hibernate", "MariaDB", "Swing"],
+      "technologies": [
+        "Java",
+        "Hibernate",
+        "MariaDB",
+        "Swing"
+      ],
       "role": "Fullstack Developer (thiết kế DB, viết backend và UI)",
       "groupRole": "Nhóm trưởng",
       "lessons": [
@@ -39,7 +50,12 @@
         "/img/project2/image4.png"
       ],
       "description": "Website thương mại điện tử clone từ Paddy.vn dành cho thú cưng.",
-      "technologies": ["ReactJS", "Bootstrap", "json-server", "Redux Toolkit"],
+      "technologies": [
+        "ReactJS",
+        "Bootstrap",
+        "json-server",
+        "Redux Toolkit"
+      ],
       "role": "Front-End Developer (thiết kế giao diện, gọi API và quản lý state)",
       "groupRole": "Thành viên",
       "lessons": [

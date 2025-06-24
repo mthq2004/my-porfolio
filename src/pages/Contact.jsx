@@ -19,7 +19,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      await axios.post('http://localhost:3011/contacts', formData)
+      await axios.post('https://json-server-data-fdrf.onrender.com/contacts', formData)
       alert('Đã gửi lời nhắn thành công!')
       setFormData({ name: '', email: '', message: '' })
     } catch (error) {

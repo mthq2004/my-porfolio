@@ -2,6 +2,8 @@ import React, { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { fetchProject } from "../features/projectSlice"
 import ProjectCard from "../components/ProjectCard"
+import { Spinner } from "react-bootstrap"
+
 
 const Projects = () => {
   const dispatch = useDispatch()
@@ -11,7 +13,7 @@ const Projects = () => {
     dispatch(fetchProject())
   }, [dispatch])
 
-  if (isLoading) return <p className="text-center mt-5">Đang tải dữ liệu dự án...</p>
+  if (isLoading) return <Spinner/>
   if (error) return <p className="text-center text-danger mt-5">Lỗi: {error}</p>
 
   return (

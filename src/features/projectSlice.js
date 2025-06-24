@@ -4,7 +4,7 @@ export const fetchProject = createAsyncThunk(
   "project/fetchProject",
   async (_, { rejectWithValue }) => {
     try {
-      const res = await fetch("http://localhost:3011/projects")
+      const res = await fetch("https://json-server-data-fdrf.onrender.com/projects")
       if (!res.ok) throw new Error("Lỗi khi gọi API")
       const data = await res.json()
       return data
