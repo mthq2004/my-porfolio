@@ -9,7 +9,7 @@ const Header = () => {
       <Container>
         <Navbar.Brand as={NavLink} to="/" className='d-flex justify-content-center align-items-center'>
           <img
-            src="/src/img/logo.png"
+            src="/public/img/logo.png"
             alt="Logo"
             style={{ maxHeight: '50px' }}
           />

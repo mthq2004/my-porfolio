@@ -31,7 +31,7 @@ const Home = () => {
           </Col>
           <Col md={6} className="text-center">
             <img
-              src="/public/img/avatar.jpg"
+              src="/img/avatar.jpg"
               alt="Hải Quân Avatar"
               className="img-fluid rounded-circle shadow"
               style={{ maxHeight: '500px' }}

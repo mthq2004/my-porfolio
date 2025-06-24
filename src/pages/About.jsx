@@ -10,7 +10,7 @@ const About = () => {
         <Row className="align-items-center gx-5">
           <Col md={6} className="mb-4 mb-md-0 text-center">
             <img
-              src="/public/img/avatar2.jpg"
+              src="/img/avatar2.jpg"
               alt="Ảnh đại diện"
               className="img-fluid rounded-circle shadow about-avatar"
             />

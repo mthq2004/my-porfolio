@@ -98,7 +98,7 @@ const Contact = () => {
 
           <Col md={6} className="d-flex flex-column justify-content-center align-items-center">
             <img
-              src="/public/img/chatbot.png"
+              src="/img/chatbot.png"
               alt="Contact Illustration"
               className="img-fluid rounded shadow"
               style={{ objectFit: 'cover' }}
