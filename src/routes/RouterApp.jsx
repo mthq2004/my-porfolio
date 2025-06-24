@@ -7,7 +7,7 @@ import Projects from "../pages/Projects";
 
 const router = createBrowserRouter([
     {
-        path:"",
+        path:"/my-porfolio/",
         element: <App/>,
         children:[
             {
@@ -15,15 +15,15 @@ const router = createBrowserRouter([
                 element: <Home/>
             },
             {
-                path:"/projects",
+                path:"projects",
                 element: <Projects/>
             },
             {
-                path:"/about",
+                path:"about",
                 element: <About/>
             },
             {
-                path:"/contact",
+                path:"contact",
                 element: <Contact/>
             }
         ]
