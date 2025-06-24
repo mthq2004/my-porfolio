@@ -1,0 +1,35 @@
+.contact-section {
+  background-color: #fdfdfd;
+}
+
+.contact-section h2 {
+  font-size: 2.3rem;
+  color: #0d6efd;
+}
+
+.contact-section a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+.btn {
+  font-weight: 500;
+  font-size: 1rem;
+  max-width: 340px;
+  padding: 0.5rem 1rem;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.map-responsive {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+

@@ -1,0 +1,52 @@
+{
+  "contacts": [
+    {
+      "id": "d9eb",
+      "name": "Mai Thành Hải Quân",
+      "email": "maithanhhaiquan2004@gmail.com",
+      "message": "Chúc cậu may mắn trong công việc"
+    }
+  ],
+   "projects": [
+    {
+      "id": 1,
+      "title": "Dr. Chen Pharmacy Management",
+      "images": [
+        "../src/img/project1/img1.png",
+        "../src/img/project1/img2.png",
+        "../src/img/project1/img3.png",
+        "../src/img/project1/img4.png",
+        "../src/img/project1/img5.png"
+      ],
+      "description": "Hệ thống quản lý nhà thuốc hỗ trợ bán hàng, lưu trữ đơn thuốc, và quản lý kho hàng.",
+      "technologies": ["Java", "Hibernate", "MariaDB", "Swing"],
+      "role": "Fullstack Developer (thiết kế DB, viết backend và UI)",
+      "groupRole": "Nhóm trưởng",
+      "lessons": [
+        "Hiểu rõ quy trình xây dựng ứng dụng quản lý từ đầu đến cuối",
+        "Thành thạo mô hình MVC và thao tác cơ sở dữ liệu bằng JPA",
+        "Nâng cao kỹ năng xử lý ngoại lệ và xác thực dữ liệu đầu vào"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Paddy.vn Pet Shop Clone",
+      "images": [
+        "../src/img/project2/image.png",
+        "../src/img/project2/image1.png",
+        "../src/img/project2/image2.png",
+        "../src/img/project2/image3.png",
+        "../src/img/project2/image4.png"
+      ],
+      "description": "Website thương mại điện tử clone từ Paddy.vn dành cho thú cưng.",
+      "technologies": ["ReactJS", "Bootstrap", "json-server", "Redux Toolkit"],
+      "role": "Front-End Developer (thiết kế giao diện, gọi API và quản lý state)",
+      "groupRole": "Thành viên",
+      "lessons": [
+        "Hiểu cách tổ chức dự án React và chia nhỏ component",
+        "Làm quen với Redux Toolkit trong quản lý trạng thái",
+        "Tối ưu hiệu năng giao diện và responsive design"
+      ]
+    }
+  ]
+}
