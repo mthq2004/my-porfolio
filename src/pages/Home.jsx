@@ -7,9 +7,18 @@ const Home = () => {
   const navigate = useNavigate()
 
   return (
-    <div className="home-section d-flex align-items-center vh-100">
+    <div className="home-section d-flex align-items-center" style={{backgroundColor:"white"}}>
       <Container>
         <Row className="align-items-center">
+          
+          <Col md={6} className="text-center">
+            <img
+              src="/img/avatar.jpg"
+              alt="Hải Quân Avatar"
+              className="img-fluid rounded-circle shadow"
+              style={{ maxHeight: '400px' }}
+            />
+          </Col>
           <Col md={6} className="text-center text-md-start mb-4 mb-md-0">
             <h5 className="display-6 fw-bold">Chào bạn, mình là Hải Quân</h5>
             <p className="lead text-muted">
@@ -28,14 +37,6 @@ const Home = () => {
                 Contact Me
               </Button>
             </div>
-          </Col>
-          <Col md={6} className="text-center">
-            <img
-              src="/img/avatar.jpg"
-              alt="Hải Quân Avatar"
-              className="img-fluid rounded-circle shadow"
-              style={{ maxHeight: '500px' }}
-            />
           </Col>
         </Row>
       </Container>

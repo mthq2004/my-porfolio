@@ -4,7 +4,7 @@ import '../css/About.css'
 
 const About = () => {
   return (
-    <section className="about-section d-flex align-items-center  bg-light vh-100">
+    <section className="about-section d-flex align-items-center " style={{backgroundColor:"white"}}>
       <Container className="px-4 px-md-5">
         <h2 className="text-center mb-5 fw-bold text-primary">Giới thiệu về tôi</h2>
         <Row className="align-items-center gx-5">

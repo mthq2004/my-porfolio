@@ -6,15 +6,16 @@ import { ToastContainer } from 'react-bootstrap'
 
 const App = () => {
   return (
-    <div className='w-100 vh-100 d-flex flex-column'>
-      <ToastContainer/>
-      <Header/>
-      <div>
-        <Outlet/>
+    <div className='w-100 d-flex flex-column'>
+      <ToastContainer />
+      <Header />
+      <div className="flex-grow-1 min-vh-100 d-flex align-items-center">
+        <Outlet />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
+
 
 export default App
