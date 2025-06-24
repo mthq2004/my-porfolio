@@ -12,11 +12,11 @@
       "id": 1,
       "title": "Dr. Chen Pharmacy Management",
       "images": [
-        "../src/img/project1/img1.png",
-        "../src/img/project1/img2.png",
-        "../src/img/project1/img3.png",
-        "../src/img/project1/img4.png",
-        "../src/img/project1/img5.png"
+        "/public/img/project1/img1.png",
+        "/public/img/project1/img2.png",
+        "/public/img/project1/img3.png",
+        "/public/img/project1/img4.png",
+        "/public/img/project1/img5.png"
       ],
       "description": "Hệ thống quản lý nhà thuốc hỗ trợ bán hàng, lưu trữ đơn thuốc, và quản lý kho hàng.",
       "technologies": ["Java", "Hibernate", "MariaDB", "Swing"],
@@ -32,11 +32,11 @@
       "id": 2,
       "title": "Paddy.vn Pet Shop Clone",
       "images": [
-        "../src/img/project2/image.png",
-        "../src/img/project2/image1.png",
-        "../src/img/project2/image2.png",
-        "../src/img/project2/image3.png",
-        "../src/img/project2/image4.png"
+        "/public/img/project2/image.png",
+        "/public/img/project2/image1.png",
+        "/public/img/project2/image2.png",
+        "/public/img/project2/image3.png",
+        "/public/img/project2/image4.png"
       ],
       "description": "Website thương mại điện tử clone từ Paddy.vn dành cho thú cưng.",
       "technologies": ["ReactJS", "Bootstrap", "json-server", "Redux Toolkit"],
