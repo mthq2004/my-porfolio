@@ -35,9 +35,10 @@ const Contact = () => {
   return (
     <section className="contact-section py-5">
       <Container>
+      <h2 className="text-center text-primary fw-bold mb-5">Thông tin liên hệ</h2>
         <Row>
 
-          <Col md={6} className="d-flex flex-column justify-content-center align-items-center">
+          <Col md={6} className="d-flex flex-column justify-content-center align-items-center mb-5">
             <img
               src="/img/chatbot.png"
               alt="Contact Illustration"
@@ -114,7 +115,6 @@ const Contact = () => {
               </form>
             </div>
           </Col>
-
           
         </Row>
       </Container>
