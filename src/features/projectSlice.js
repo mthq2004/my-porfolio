@@ -2,6 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit"
 
 const API = "https://portfolio-backend-mongo-nwj1.onrender.com/api/projects"
 
+
 export const fetchProject = createAsyncThunk(
   "project/fetchProject",
   async (_, { rejectWithValue }) => {
