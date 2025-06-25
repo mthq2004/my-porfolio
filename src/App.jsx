@@ -11,7 +11,7 @@ const App = () => {
       <ScrollToTop/>
       <ToastContainer />
       <Header />
-      <div className="flex-grow-1 min-vh-100 d-flex align-items-center">
+      <div className="flex-grow-1 min-vh-100 d-flex justify-content-center align-items-center">
         <Outlet />
       </div>
       <Footer />
