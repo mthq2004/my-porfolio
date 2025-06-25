@@ -1,10 +1,14 @@
 import React, { useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { FaEnvelope, FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa'
-import axios from 'axios'
 import '../css/Contact.css'
+import { useDispatch } from 'react-redux'
+import { addContact } from '../features/contactSlice'
 
 const Contact = () => {
+
+  const dispatch = useDispatch();
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -19,8 +23,8 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      await axios.post('https://json-server-data-fdrf.onrender.com/contacts', formData)
-      alert('Đã gửi lời nhắn thành công!')
+      dispatch(addContact(formData));
+      alert('Gửi tin nhắn thành công!')
       setFormData({ name: '', email: '', message: '' })
     } catch (error) {
       console.error('Lỗi khi gửi dữ liệu:', error)

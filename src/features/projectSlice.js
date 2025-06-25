@@ -1,10 +1,12 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit"
 
+const API = "https://portfolio-backend-mongo-nwj1.onrender.com/api/projects"
+
 export const fetchProject = createAsyncThunk(
   "project/fetchProject",
   async (_, { rejectWithValue }) => {
     try {
-      const res = await fetch("https://json-server-data-fdrf.onrender.com/projects")
+      const res = await fetch(API)
       if (!res.ok) throw new Error("Lỗi khi gọi API")
       const data = await res.json()
       return data
