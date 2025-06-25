@@ -63,7 +63,7 @@ const Contact = () => {
                   <FaGithub className="me-2" />
                   GitHub
                 </a>
-                <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary d-inline-flex align-items-center">
+                <a href="https://www.facebook.com/hai.quan.580161/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary d-inline-flex align-items-center">
                   <FaFacebook className="me-2" />
                   Facebook
                 </a>
