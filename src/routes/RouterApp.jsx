@@ -7,7 +7,7 @@ import Projects from "../pages/Projects";
 
 const router = createHashRouter([
   {
-    path: "/", // 👉 không cần "my-porfolio" vì HashRouter xử lý khác
+    path: "/",
     element: <App />,
     children: [
       { index: true, element: <Home /> },

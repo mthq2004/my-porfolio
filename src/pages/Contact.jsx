@@ -36,25 +36,38 @@ const Contact = () => {
     <section className="contact-section py-5">
       <Container>
         <Row>
+
+          <Col md={6} className="d-flex flex-column justify-content-center align-items-center">
+            <img
+              src="/img/chatbot.png"
+              alt="Contact Illustration"
+              className="img-fluid rounded shadow"
+              style={{ objectFit: 'cover' }}
+            />
+          </Col>
+
+
           <Col md={6} className="mb-4">
-            <h5 className="mb-3">Thông tin cá nhân</h5>
-            <div className="d-flex flex-column gap-3">
-              <a href="mailto:maithanhhaiquan2004@gmail.com" className="btn btn-outline-dark d-inline-flex align-items-center">
-                <FaEnvelope className="me-2" />
-                maithanhhaiquan2004@gmail.com
-              </a>
-              <a href="https://www.linkedin.com/in/h%E1%BA%A3i-qu%C3%A2n-8a26b3288/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary d-inline-flex align-items-center">
-                <FaLinkedin className="me-2" />
-                LinkedIn
-              </a>
-              <a href="https://github.com/mthq2004" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark d-inline-flex align-items-center">
-                <FaGithub className="me-2" />
-                GitHub
-              </a>
-              <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary d-inline-flex align-items-center">
-                <FaFacebook className="me-2" />
-                Facebook
-              </a>
+          <h3 className="mb-3 text-center">Thông tin cá nhân</h3>
+            <div className='d-flex justify-content-center align-items-center'>
+              <div className="d-flex flex-column gap-3">
+                <a href="mailto:maithanhhaiquan2004@gmail.com" className="btn btn-outline-dark d-inline-flex align-items-center">
+                  <FaEnvelope className="me-2" />
+                  maithanhhaiquan2004@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/h%E1%BA%A3i-qu%C3%A2n-8a26b3288/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary d-inline-flex align-items-center">
+                  <FaLinkedin className="me-2" />
+                  LinkedIn
+                </a>
+                <a href="https://github.com/mthq2004" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark d-inline-flex align-items-center">
+                  <FaGithub className="me-2" />
+                  GitHub
+                </a>
+                <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary d-inline-flex align-items-center">
+                  <FaFacebook className="me-2" />
+                  Facebook
+                </a>
+              </div>
             </div>
 
             <div className="mt-4">
@@ -93,21 +106,16 @@ const Contact = () => {
                     required
                   ></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary">
+                <div className='d-flex justify-content-end'>
+                  <button type="submit" className="btn btn-primary w-25">
                   Gửi
                 </button>
+                </div>
               </form>
             </div>
           </Col>
 
-          <Col md={6} className="d-flex flex-column justify-content-center align-items-center">
-            <img
-              src="/img/chatbot.png"
-              alt="Contact Illustration"
-              className="img-fluid rounded shadow"
-              style={{ objectFit: 'cover' }}
-            />
-          </Col>
+          
         </Row>
       </Container>
     </section>
